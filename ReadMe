@@ -1,0 +1,11 @@
+COMP 373 - Observer Pattern
+The observer pattern is used when there is a one to many relationship
+between objects are to be notified,its dependent objects are to be notified automatically.
+Observer pattern uses three actor classes. The Observable class with methods to add, remove
+and notify observers. The Observer class that is watching the Observable class as it updates. Then 
+the MainDisplayObserver class to see the observer in action.In this program, there are two observers 
+NewsSubscriber and NewsApplication watching/related to one NewsObserverable class. Therefore,both
+NewsSubscribers and NewsApplication are subscribed to the latest news/headlines that the News Station is updating.
+A notification will appear per update. In addition, they have the ability to unsubscribe to the latest news/headlines. 
+The advantage with the observer pattern is that the subscribers in this case, NewsSubscriber and NewsApplication will
+not have to constantly keep on checking if a change has been made.
